@@ -102,7 +102,8 @@ transform: scaleX(0);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    transition: color 250ms ease;}
 
 .site-nav a:hover, .site-nav a:focus {color: var(--accent-color)}
 
@@ -121,17 +122,20 @@ transform: scaleX(0);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    transition: color 250ms ease;}
 
 .mailtel a:hover, .mailtel a:focus {color: var(--accent-color)}
 
 .icon-envelope{fill:currentColor;
-margin-right: 10px;}
+margin-right: 10px;
+transition: color 250ms ease;}
 
 .icon-envelope:hover,.icon-envelope:focus { fill: currentColor;}
 
 .icon-smartphone{fill:currentColor;
-    margin-right: 10px;}
+    margin-right: 10px;
+    transition: color 250ms ease;}
 
 .icon-smartphone:hover, .icon-smartphone:focus{ fill: currentColor;}
 
@@ -180,6 +184,7 @@ margin-right: 10px;}
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    transition: color 250ms ease;
     }
 
 .button:hover, .button:focus{color: var(--white-color); background-color: #188CE8;}
@@ -353,11 +358,17 @@ background-color: rgba(47, 48, 58, 0.8);
     height: 44px;
     padding: 12px;
     color:#AFB1B8;
-    border-radius: 50%;}
+    border-radius: 50%;
+    transition: background-color 250ms ease, color 250ms ease;
+}
 
-.icon-social-network{fill: currentColor;}
+.icon-social-network{
+    fill: currentColor;
+}
 
-.icon-social-network:hover, .icon-social-network:focus { fill: currentColor;}
+.icon-social-network:hover, .icon-social-network:focus { 
+    fill: currentColor;
+}
 
 .link-social-network:hover, .link-social-network:focus{color: #ffffff;
     background-color: var(--accent-color);
@@ -377,6 +388,7 @@ background-color: rgba(47, 48, 58, 0.8);
     border-radius: 4px;
     padding: 16px 32px;
     color: #afb1b8;
+    transition: background-color 250ms ease, color 250ms ease;
     }
 
 .icon-company{fill:currentColor;}
@@ -435,7 +447,9 @@ padding-top: 20px; }
         padding: 12px;
         color:#ffffff;
         border-radius: 50%;
-        background-color: rgba(255, 255, 255, 0.1);}
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: background-color 250ms ease, color 250ms ease;
+    }
     
 .icon-social-network-footer{fill: currentColor;}
     
@@ -466,13 +480,15 @@ align-items: baseline;}
 
 .button-portfolio{display: flex;
     justify-content: center;
-    margin-bottom: 50px;}
+    margin-bottom: 50px;
+    }
 
 .button-portfolio input:hover, .button-portfolio input:focus {color:var(--white-color);
     background-color:var(--accent-color) ;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
-.button-portfolio input{padding: 6px 22px;}
+.button-portfolio input{padding: 6px 22px;
+    transition: color 250ms ease;}
 
 .button-portfolio-item:not(:last-child){margin-right: 8px;}
 
